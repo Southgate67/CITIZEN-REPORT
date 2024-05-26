@@ -26,7 +26,7 @@ function Contact() {
           </p>
         </div>
       </div>
-      <div className="container text-center">
+      <div className="container">
         <div className="row">
           <div className="col-md-4 mt-5" data-aos="fade-up">
             <p className="fw-bold">
@@ -42,7 +42,7 @@ function Contact() {
                   <span className="me-3">
                     <i className="fa fa-phone"></i>
                   </span>
-                  +234 8065435321
+                  +234 9137029216
                 </a>
               </div>
               <div className="mt-3">
@@ -53,18 +53,18 @@ function Contact() {
                   <span className="me-3">
                     <i className="fab fa-whatsapp"></i>
                   </span>
-                  +234 8065435321
+                  +234 9137029216
                 </a>
               </div>
               <div className="mt-3">
                 <a
-                  href="mailto:info@citizenresponse.org"
+                  href="mailto:info@crystalshipment.com"
                   className="text-decoration-none text-dark"
                 >
                   <span className="me-3">
                     <i className="fa fa-envelope"></i>
                   </span>
-                  info@citizenresponse.org
+                  info@crystalshipment.com
                 </a>
               </div>
             </div>

@@ -1,16 +1,16 @@
 import React from "react";
 import Human3 from "../assets/Images/Human3.jpg";
-import Form from "./Form"
+import Form from "./Form";
 
 function Report() {
   return (
     <>
       <div className="hero1">
         <div className="container text-center pt-4">
-          <h1 className="" style={{marginTop: "140px"}}>
+          <h1 className="" style={{ marginTop: "140px" }}>
             Enter Your Report Here
           </h1>
-          <p className="pt-3" style={{fontSize: "24px"}}>
+          <p className="pt-3" style={{ fontSize: "24px" }}>
             Your sincere report can make a big difference for your community and
             contribute to the development of our dear nation
           </p>
@@ -27,7 +27,7 @@ function Report() {
         </p>
 
         <p className="px-5 pt-1">
-          <span className="text-success" style={{fontWeight: 900}}>
+          <span className="text-success" style={{ fontWeight: 900 }}>
             CITIZEN RESPONSE
           </span>
           is a platform that will enable citizens to report the challenges,
@@ -39,7 +39,7 @@ function Report() {
         </p>
 
         <p className="px-5 pt-1">
-          <span className="text-success" style={{fontWeight: 900}}>
+          <span className="text-success" style={{ fontWeight: 900 }}>
             CITIZEN RESPONSE
           </span>
           is committed to promoting sustainable development across the country.
@@ -54,7 +54,7 @@ function Report() {
             <img
               src={Human3}
               className="img-fluid rounded"
-              style={{width: "300px"}}
+              style={{ width: "300px" }}
               alt=""
             />
             <p className="pt-3">
@@ -63,9 +63,7 @@ function Report() {
           </div>
 
           <div className="col-md-8 text-center mt-2" data-aos="fade-left">
-            <h4 className="text-danger pb-1">
-              REPORT FORM
-            </h4>
+            <h4 className="text-danger pb-1">REPORT FORM</h4>
             <h5 className="pb-3">
               Welcome! Kindly fill the form below to submit your report.
             </h5>
