@@ -1,113 +1,426 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body{
+    /* background-color: rgb(19, 17, 17); */
     font-family: "Lato", sans-serif;
 }
 
 .hero{
-  background: url('../src/assets/Images/background.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 500px;
+    background: url('../src/assets/Images/Slum.jpg');
+    /* background: url('./src/assets/Human4.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.hero p{
+    color: #E71800 !important;
+    font-weight: 800;
+
+}
+
+.hero1{
+    background: url('../src/assets/Images/Slum.jpg');
+    /* background: url('./src/assets/Designer7.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.hero1 p{
+    color: red;
+    font-weight: bold;
+}
+
+.hero1 h1{
+    color: whitesmoke;
+    font-weight: 800;
+}
+
+
+.text-danger{
+    color: #E71800 !important;
+    font-weight: bold;
+}
+
+.foot{
+    color: whitesmoke !important;
+}
+
+.hero  h1, p{
+    font-weight: bold;
+}
+
+.about{
+    height: 300px;
+    color: whitesmoke !important;
+}
+
+.contact{
+    height: 350px;
+    color: whitesmoke !important;
+}
+
+.about  h1, p{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
 }
 
 h1{
-  font-size: 48px;
-  font-weight: 700;
-}
-
-h2{
-  font-size: 32px;
-  font-weight: 600;
-}
-
-.bg-red{
-  background-color: #E71800;
-  width: 180px;
-  height: 6px;
-  border-radius: 8px;
-}
-
-.btn-danger{
-  background-color: #E71800 !important;
-}
-
-.text-danger{
-  color:  #E71800 !important;
-}
-
-.bg-cover{
-  background: url('../src/assets/Images/cover.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 196px;
-}
-
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
   }
-  a:hover {
-    color: #747bff;
+
+  .btn-danger{
+    background-color: #E71800 !important;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .report a{
+    font-weight: bold;
   }
+
+  .navbar-brand p{
+    font-weight: bold;
+  }
+
+  .nav-item a{
+    font-weight: bold;
+  }
+
+.bg-red a{
+    font-weight: bolder;
+}
+
+/* .key-service p{
+    color: black;
 } */
+
+.founders{
+    background-image: linear-gradient(to left, rgb(199, 146, 49), rgb(10, 87, 10));
+}
+
+.ben{
+    background-image: linear-gradient(to left, rgb(199, 146, 49), rgb(10, 87, 10));
+}
+
+.jane{
+    background-image: linear-gradient(to left, rgb(68, 68, 189), rgb(10, 87, 10));
+}
+
+.queen{
+    background-image: linear-gradient(to left, rgb(212, 148, 212), rgb(10, 87, 10));
+}
+
+/* .join{
+    margin-left: 13.5rem;
+} */
+
+
+/* history section */
+
+#history{
+    background-color: rgb(161, 236, 211);
+}
+
+.historyArea{
+    background-color: whitesmoke;
+    height: 350px;
+    margin-right: -40px;
+    padding-top: 30px;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+}
+
+.historyImage{
+    padding-top: 50px;
+    width: 350px;
+    margin-left: -12px;
+    z-index: 50;
+    position: relative;
+}
+
+
+/* work section */
+
+#work{
+    background-color:  rgb(219, 197, 168);
+}
+
+.workArea{
+    background-color: whitesmoke;
+    height: 460px;
+    margin-right: -35px;
+    padding-top: 30px;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+}
+
+.workImage{
+    padding-top: 100px;
+    width: 350px;
+    margin-left: -10px;
+    z-index: 50;
+    position: relative;
+}
+
+/* impact section */
+
+#impact{
+    background-color:  rgb(161, 236, 211);
+}
+
+.impactArea{
+    background-color: whitesmoke;
+    height: 460px;
+    margin-right: -50px;
+    padding-top: 30px;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+}
+
+.impactImage{
+    padding-top: 45px;
+    width: 350px;
+    margin-left: -40px;
+    z-index: 50;
+    position: relative;
+}
+
+#impact p{
+    margin-left: 1rem;
+}
+
+
+
+
+
+/* team section */
+
+#team{
+    background-color:  rgb(219, 197, 168);
+}
+
+.teamArea{
+    background-color: rgb(161, 236, 211);
+    height: 460px;
+    margin-right: -40px;
+    padding-top: 30px;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+}
+
+.teamImage{
+    padding-top: 40px;
+    width: 350px;
+    margin-left: -20px;
+    z-index: 50;
+    position: relative;
+}
+section h3{
+    font-weight: bold;
+}
+
+span{
+    font-weight: 500;
+}
+
+#impact img{
+    border: 1px red;
+}
+
+
+
+
+/* media query */
+@media screen and (max-width: 1200px) {
+    .container{
+        background-size: 1200px 100vh;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container{
+        background-size: 992px 100vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        background-size: 768px 100vh;
+    }
+
+    #history p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .historyImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #work p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .workImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #impact p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .impactImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #team p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .teamImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    
+    .mt-3{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
+
+    .mt-3 img{
+        padding-right: 1.5rem;
+    }
+
+    .why{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        background-size: 576px 100vh;
+        overflow: hidden;
+    }
+
+    #history p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .historyImage{
+        text-align: center;
+        margin-left: 0;
+        width: 330px;
+    }
+
+    #work p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .workImage{
+        text-align: center;
+        margin-left: 0;
+        width: 330px;
+    }
+
+    #impact p{
+        padding-left: 1rem;
+        padding-right: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .impactImage{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #impact img{
+        margin-left: 1.5rem;
+    }
+
+
+    #team p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .teamImage{
+        text-align: center;
+        margin-left: 0;
+        width: 330px;
+    }
+    
+    .mt-3{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
+
+    .mt-3 img{
+        padding-right: 1.5rem;
+    }
+
+    .why{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
+    
+    .carouselImage{
+        height: 450px;
+    }
+
+    .historyArea{
+        height: 380px;
+    }
+
+    .workArea{
+        height: 510px;
+    }
+
+    .impactArea{
+        height: 550px;
+    }
+
+    .teamArea{
+        height: 500px;
+    }
+
+    .about{
+        height: 370px;
+        color: whitesmoke !important;
+    }
+
+    .contact{
+        height: 460px;
+        color: whitesmoke !important;
+    }
+
+}
