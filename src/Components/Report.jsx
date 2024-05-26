@@ -7,7 +7,7 @@ function Report() {
     <>
       <div className="hero1">
         <div className="container text-center pt-4">
-          <h1 className="" style={{ marginTop: "140px" }}>
+          <h1 className="" style={{ marginTop: "100px" }}>
             Enter Your Report Here
           </h1>
           <p className="pt-3" style={{ fontSize: "24px" }}>

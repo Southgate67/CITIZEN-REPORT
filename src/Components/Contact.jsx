@@ -19,7 +19,7 @@ function Contact() {
             egalitarian society that will be the "Mother Home" for all Black
             race across the world.
           </p>
-          <p className="pt-3" style={{ fontSize: "14px" }}>
+          <p className="pt-3 pb-3" style={{ fontSize: "14px" }}>
             Kindly call us for any complaint or suggestion. We are eager to
             heaar from you on how to serve you better and create a more loving
             space for our audience.

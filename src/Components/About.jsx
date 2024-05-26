@@ -14,7 +14,7 @@ function About() {
           >
             CITIZEN RESPONSE
           </h1>
-          <p className="pt-3" style={{ fontSize: "17px" }}>
+          <p className="pt-3 pb-3" style={{ fontSize: "17px" }}>
             You too can make a big difference in promoting equitable development
             and governance across all the levels of governmnt and economic
             sectors of Nigeria. Let's join hands actively to build an

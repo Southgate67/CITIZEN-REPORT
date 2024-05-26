@@ -12,7 +12,7 @@ function Reports() {
             style={{ marginTop: "100px" }}
             data-aos="fade-right"
           >
-            Search For Report Here
+            Search For Reports Here
           </h1>
           <p
             className="text-danger pt-3"
