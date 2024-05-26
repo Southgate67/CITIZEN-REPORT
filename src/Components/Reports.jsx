@@ -9,7 +9,7 @@ function Reports() {
         <div className="container text-center pt-5">
           <h1
             className="text-light"
-            style={{ marginTop: "100px", fontWeight: "800"}}
+            style={{ marginTop: "100px" }}
             data-aos="fade-right"
           >
             Search For Report Here
