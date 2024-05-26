@@ -6,10 +6,10 @@ import MaryQueen from "../assets/Images/MaryQueen.png";
 function About() {
   return (
     <>
-      <div className="about bg-success">
+      <div className=" about bg-success">
         <div className="container text-center pt-5">
           <h1
-            className="mx-auto text-success mb-4"
+            className="mx-auto text-success"
             style={{ backgroundColor: "white", width: "370px" }}
           >
             CITIZEN RESPONSE
@@ -27,7 +27,7 @@ function About() {
 
       {/* Our History starts here */}
       <div className="container">
-        <p className="pt-5">
+        <p className="px-5 pt-5">
           Founded in February 2024,{" "}
           <span className="text-success" style={{ fontWeight: 900 }}>
             CITIZEN RESPONSE

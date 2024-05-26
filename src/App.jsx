@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Header from "./Components/Header";
-import Home from "./Components/Home"
-import About from "./components/About";
+import Home from "./Components/Home";
+import About from "./Components/About";
 import Reports from "./components/Reports";
 import Contact from "./components/Contact";
 import Report from "./Components/Report";
